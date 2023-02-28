@@ -77,14 +77,62 @@ This is a beckend server for the Can of Books app that utilizes the Mongoose ODM
 
 #### Conflict Resolution
 
-- What will be your group’s process to resolve conflict, when it arises?
-  - During stand up have a level-setting check-in for any problems that we want to discuss.
-  - Call in Roger for any conflict that isn't deescalating.
-- What will your team do if one person is pulling all the weight while the other person is not contributing?
-  - It is the responsibility of each person to communicate when they've taken on more than they can handle, or to ask for help, and it is the responsibility of each person who notices this behavior to bring it up graciously (without accusation).
-- What will your team do if one person is taking over the project and not letting the other member contribute?
-  - See conflict resolution plan
-- How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
-  - Give each other grace and consider it an opportunity to solidify your learning by helping someone else learn a concept or feature.
-  - Rely on each other with retrospectives
-# 301-final-backend
+Explain to your team why it’s important to have a plan in place for resolving conflicts during the project.
+
+- Discuss the types of conflicts that might arise during the project, such as differences in opinions or scheduling conflicts.
+
+Agree on a communication protocol to use when conflicts arise, such as having a designated person to initiate the conversation.
+
+- Establish a clear process for resolving conflicts. This could involve starting with a one-on-one conversation between the parties involved, then escalating to a group discussion if needed.
+
+Set ground rules for conflict resolution, such as avoiding blame and focusing on the issue at hand.
+
+- Determine a timeline for resolving conflicts and ensure everyone knows the timeline.
+
+Assign specific roles and responsibilities to team members for resolving conflicts.
+
+- Regularly review and adjust the plan based on feedback from the team or changes in the project scope.
+
+### Work plan
+
+How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
+
+- We will start off with a stand up at the start of every class and assign work to each member, depending on the work load we can split off into multiple groups.
+
+What project management tool will be used?
+
+- Trello project manager
+
+### Git process
+
+What components of your project will live on GitHub?
+
+- Our frontend and backend.
+
+How will you share the repository with your teammates?
+
+- through a girhub organization.
+
+What is your Git flow?
+
+- Our flow will consists of every member having their own named branch merging to a dev branch, followed by merging to main at the end of the day.
+
+Will you be using a PR review workflow? If so, consider:
+
+- Yes, 1 member will review a piece of code in order to merge to the dev branch, followed by everyone being present for a merge to main.
+
+How many people must review a PR?
+
+- At least 1 person.
+
+Who merges PRs?
+
+- Anyone can merge as long as they didnt write the code, and have seen the code working or reviewed the code being merged.
+
+How often will you merge?
+
+- At the end of the day or whenever we have accomplished a mile stone.
+
+How will you communicate that it’s time to merge?
+
+- Through a group decision.
