@@ -26,7 +26,23 @@ const PORT = process.env.PORT || 3002;
 app.get('/', (req,res) => res.status(200).send('Default Route Working'));
 
 // // Route that runs our Handler functions that was imported in
-// app.get('/', Handler.get);
+app.get('/travel', (request, response)=> {
+  const options = {
+  method: 'GET',
+  url: `https://api.content.tripadvisor.com/api/v1/location/search?language=en&key=${process.env.TRIP_ADVISOR_API_KEY}`,
+  headers: {accept: 'application/json'}
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+})
+
 
 // app.post('/', Handler.post);
 
