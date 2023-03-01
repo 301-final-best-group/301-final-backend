@@ -30,7 +30,8 @@ app.get('/', (req,res) => res.status(200).send('Default Route Working'));
 app.get('/travel', (request, response)=> {
   const options = {
   method: 'GET',
-  url: `https://api.content.tripadvisor.com/api/v1/location/search?language=en&key=${process.env.TRIP_ADVISOR_API_KEY}&searchQuery=seattle`,
+  url: `https://api.content.tripadvisor.com/api/v1/location/search?key=${process.env.TRIP_ADVISOR_API_KEY}&searchQuery=seattle&language=en`,
+  
 
   headers: {accept: 'application/json'}
 };
