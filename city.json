@@ -3,7 +3,7 @@
         "name": "Miami",
         "description": "Miami is hot hot hot! And it’s not just the sultry weather. Here, the nightlife is scorching, thanks to a strong Latin influence and spicy salsa culture. Dance the noche away in a nightclub, or indulge in a fancy meal at one of the city’s celebrity-owned restaurants. By day, hit the beach of course, or have yourself a walkabout, taking in Miami’s colorful art deco architecture. Grab a Cuban sandwich in Little Havana, then ride the vintage carousel at Virginia Key Beach Park.",
         "address": "Miami, FL",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/18/c5/46/3d/whether-it-is-from-miami.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/17/86/13/77/50-blooms-of-alstroemeriahtml.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/10/8e/f5/59/entertainment-boat-charter.jpg",
@@ -16,7 +16,7 @@
         "name": "Miami Beach",
         "description": "At the shore in Miami Beach, visitors can swim, surf and jet ski in the warm and crystal-clear Atlantic waters. You can also nap on the white sands, work on a tan or simply watch the beautiful people, especially at South Beach, a favorite of models and celebrities.",
         "address": "Miami Beach, FL",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/17/49/87/6c/deluxe-rooms-located.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/17/49/7e/80/superior-queen-room-located.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/15/b3/23/45/off-market-multi-family.jpg",
@@ -29,7 +29,7 @@
         "name": "Fontainebleau Miami Beach",
         "description": "A spectacular blend of Golden Era glamour and modern luxury, Fontainebleau today reinvents the original vision of legendary architect Morris Lapidus – a stage where everyone plays their unique part. At Fontainebleau, striking design, contemporary art, music, fashion and technology merge into a vibrant new kind of guest experience. We invite you to enter a world where you are free to play, shop, dine, spa, meet or simply relax – however you define your perfect day. Express yourself in an environment that surrounds you with every kind of pleasure and invites every sort of adventure. Following a $1 billion renovation, the 22-acre oceanfront hotel features signature restaurants by award-winning chefs; two chic nightlife venues; a two-story, 40,000-square-foot spa, expansive poolscape, a pristine Atlantic Ocean beach and state-of-the-art conference and event facilities. A landmark since its debut in 1954, Fontainebleau has been restored and transformed by a team of renowned architects and designers to create the most dynamic destination resort on the eastern seaboard.",
         "address": "4441 Collins Ave, Miami Beach, FL 33140-3227",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/12/2b/70/c9/lobby--v18273853.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/12/2b/70/b2/blue-bar--v18273636.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/12/2b/70/ae/hakksan--v18274019.jpg",
@@ -42,7 +42,7 @@
         "name": "Loews Miami Beach Hotel",
         "description": "Located in the heart of South Beach’s vibrant Art Deco District, the renowned Loews Miami Beach Hotel blends sophisticated style with beachfront chic for a luxury, oceanfront escape unlike any other. Spend the day under the South Beach sun at the hotel’s iconic pool deck, where direct beach access means the ocean is only steps away. Relax in the comfort of 790 beautifully appointed guestrooms, including newly redesigned presidential suites. Savor Miami-inspired flavors at five restaurants and lounges including Preston’s Market, Miami Joe Coffee Co., Bar Collins, Nautilus and the award-winning Lure Fishbar. Indulge in VIP treatment at SOAK Cabanas & Daybeds or recharge at Exhale Spa. It’s all at your fingertips at Loews Miami Beach Hotel, where the comfort and well-being of guests is always top of mind. An inspired canvas for meetings and events, Loews Miami Beach Hotel has 65,000 square feet of expansive indoor and outdoor function space, accommodating groups of 10 to 2,700 guests. Additional amenities include a fitness center; premium shopping at Splash and Splish retail boutiques; and a state-of-the-art Kids Club offering areas for crafts, video games and outdoor adventures, to ensure a memorable family getaway.",
         "address": "1601 Collins Ave, Miami Beach, FL 33139-3112",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/10/9c/96/5e/grounds--v17434427.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/10/9c/96/5b/grounds--v17434038.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/10/9c/96/25/the-hotel--v17434176.jpg",
@@ -55,7 +55,7 @@
         "name": "Sole Miami",
         "description": "Solé Miami is centrally located within the popular communities of Sunny Isles Beach, Golden Beach, Bal Harbour, and Aventura, and only minutes from the culture and night life of South Beach and the Art Deco District. Solé Miami is conveniently located a short distance from the South Beach dance clubs, pulsing with Latin rhythms and world-renowned shopping.",
         "address": "17315 Collins Avenue, Sunny Isles Beach, FL 33160-3410",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/1a/6e/62/07/sole-miami-a-noble-house.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/27/b7/4e/5d/sole-miami.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/27/b7/4e/37/sole-miami.jpg",
@@ -68,7 +68,7 @@
         "name": "Setai Hotel Miami",
         "description": "Situated ocean-side in the heart of Miami's most desirable location near South Beach, The Setai, Miami Beach is an award-winning, international leader in hospitality and the hotel of choice for the sophisticated international traveler. The Setai masterfully combines the warmth of Asian hospitality with the best in personalized service and truly rarified comfort. Housed in a restored 1936 landmark building within the historical Art Deco District, The Setai has been artfully designed, weaving the aesthetics of the Far East into its original Art Deco facade.",
         "address": "2001 Collins Ave, Miami Beach, FL 33139",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/28/14/71/f3/setai-hotel-miami.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/28/14/65/bc/setai-hotel-miami.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/28/14/64/ce/setai-hotel-miami.jpg",
@@ -81,7 +81,7 @@
         "name": "The Confidante Miami Beach",
         "description": "Ideally located between the hustle of South Beach and the bustle of Miami's hip art districts, The Confidante Miami Beach captures the mid-century quality of life in retro-glam style. The 354-room Collins Avenue hotel provides a kaleidoscope of ambiance like vibrant mid-century modern décor, direct access to famous Miami Beach, a chic backyard pool vibe with colorful cabanas and bungalows and mod rooftop spa. Explore a cool cocktail scene, superb dining, specialty coffee bar and refreshing pool and beachside menu. The Confidante boasts Miami's freshest meeting and event space featuring nearly 30,000+ square feet of indoor and outdoor dynamic space.",
         "address": "4041 Collins Ave, Miami Beach, FL 33140-3713",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/14/08/f5/81/lobby-v18511724.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/14/08/f5/5e/standard-king-ocean-view.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/14/08/f5/01/bird-and-bone-v18511871.jpg",
@@ -94,7 +94,7 @@
         "name": "Faena Miami Beach",
         "description": "Faena Hotel Miami Beach features 179 guestrooms and suites conceived by Alan Faena and designed by award-winning film director/producer Baz Luhrmann and four-time Academy Award(R)-winning production and costume designer Catherine Martin. Typifying South American warmth of spirit, Faena Hotel Miami Beach sets a new benchmark for hospitality. Curated amenities and graceful and attentive service enhance the guest experience on every possible level.",
         "address": "3201 Collins Ave Faena District, Miami Beach, FL 33140-4023",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/16/74/98/2f/shops-v18671207.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/14/b7/7e/b7/the-hotel-v18573624.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/14/b7/7e/a8/restaurant-v18573615.jpg",
@@ -107,7 +107,7 @@
         "name": "Eden Roc Miami Beach",
         "description": "Ranked top 3 best 2022 hotels in Miami by Condé Nast Traveler, discover a colorful Miami Beach Icon. A vibrant city transitions to a beachside oasis. Designed by famed architect Morris Lapidus, Eden Roc Miami Beach is one of the most iconic and architecturally significant hotels in Miami, lending nostalgic glamour to a modern beachfront resort experience. The same timeless style and upbeat ambience that once drew Old Hollywood luminaries continues to lure loyal guests from all over the world today. Bright, spacious guest rooms with oversized balconies peer out over the sea with direct and dazzling ocean views. Three sparkling beachfront pools, holistic and wellness treatments at the expansive Esencia Wellness Spa including a beauty salon, fitness center and fashion boutique await you. An exclusive strip of beach invite travelers to unwind in a relaxed tropical setting, with pulsing nightlife and world-famous cultural attractions just minutes away. With 5 restaurants and bars, guests can indulge in elevated coastal dining at Ocean Social with dazzling ocean views. For poolside cocktails and snacks, retreat to Aquatica Bar or for a morning pick me up or Grab N Go options, visit Café Inez or experience the finest Japanese cuisine in the city at the world famous Nobu Miami. Whether you’re seeking beach R&R, a wellness escape, or a culinary journey, there’s a little bit of everything for everybody here at Eden Roc.",
         "address": "4525 Collins Avenue, Miami Beach, FL 33140-3226",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/17/9e/55/e1/eden-roc-miami-beach.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/17/9e/44/97/main-pool.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/17/9e/57/92/eden-roc-miami-beach.jpg",
@@ -120,7 +120,7 @@
         "name": "Novotel Miami Brickell",
         "description": "Welcome to Novotel Miami Brickell! We are thrilled to officially be a part of Accor, a global chain with over 5,000 hotels in the world. Novotel’s mantra of “Modern Easy Living” drives the brand to always offer guests a comfortable and unique type of stay, with intuitive and modern design coupled with innovative technology, resulting in a relaxed, lively and welcoming atmosphere. Novotel Miami Brickell exemplifies all of the brand’s elements and is centrally located, making it the ideal place to stay for business and leisure travelers. Since the hotel opened in July 2016, the property has welcomed leisure and business travelers from all over the world, due to its close proximity to Brickell’s financial district and Miami’s top tourist destinations. As a Novotel property, the hotel will continue to deliver the same superior service guests are accustomed to and offer a full-service hospitality experience for a unique and unforgettable stay.",
         "address": "1500 SW 1st Ave, Miami, FL 33129-1115",
-        "image_url": [
+        "images": [
             "https://media-cdn.tripadvisor.com/media/photo-s/0f/95/1a/35/street--v16171769.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/0f/95/1a/30/street--v16171719.jpg",
             "https://media-cdn.tripadvisor.com/media/photo-s/0f/95/19/d5/lobby--v16171881.jpg",

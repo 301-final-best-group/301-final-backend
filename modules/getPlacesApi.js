@@ -6,7 +6,7 @@ class Place {
         this.name = place.name;
         this.description = place.description;
         this.address = place.address_obj.address_string;
-        this.image_url = place.images;
+        this.images = place.images;
     }
 }
 
