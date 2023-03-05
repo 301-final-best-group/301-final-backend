@@ -53,8 +53,8 @@ app.get('/restaurants', async (request, response) => {
 // Route that runs our bookHandler functions that was imported in
 app.get('/places', crudPlaces.getPlaces);
 app.post('/places', crudPlaces.addPlaces);
-// app.delete('/places/:id', crudPlaces.deletePlaces)
-// app.put('/places/:id', crudPlaces.updatePlaces)
+app.delete('/places/:id', crudPlaces.deletePlaces)
+app.put('/places/:id', crudPlaces.updatePlaces)
 
 // class Place {
 //     constructor(place) {
