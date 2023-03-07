@@ -40,7 +40,6 @@ async function getPlacesForCity(searchQuery, apiKey) {
             if (imagesResponse) {
                 constUpdatedPlace["images"] = imagesResponse.data.data.map(obj => obj.images.large.url)
             }
-
             res.push(constUpdatedPlace)
         }
         let finalRes = res.map(place => new Place(place))
