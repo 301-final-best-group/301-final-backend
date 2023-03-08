@@ -43,25 +43,22 @@ crudPlaces.deletePlaces = async (req, res, next) => {
 };
 
 module.exports = crudPlaces;
-
 // 'use strict';
 
 // const placesModel = require('../models/placesModel');
 
 // const crudPlaces = {};
 
-// //TODO:  for Auth0 to replace !!! placesModel.create({...req.body, email:req.user.email})   !!! 3/4
 // crudPlaces.addPlaces = async (req, res, next) => {
 //   try {
-//     placesModel.create(req.body)    
+//     placesModel.create(req.body)    //TODO:  for Auth0 to replace !!! placesModel.create({...req.body, email:req.user.email})   !!! 3/4
 //     .then(createdPlace => res.send(createdPlace))
 //   } catch (e) { next(e.message); }
 // };
 
-// //TODO: to replace with !!! const items = await placesModel.find({email: req.user.email});!!! 4/4
 // crudPlaces.getPlaces = async (req, res) => {
 //   try{
-//   const items = await placesModel.find({}); 
+//   const items = await placesModel.find({}); //TODO: to replace with !!! const items = await placesModel.find({email: req.user.email});!!! 4/4
 //   res.status(200).json(items);
 //   }catch (e) {
 //     next(e.message);
