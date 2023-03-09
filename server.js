@@ -6,12 +6,12 @@ const cors = require('cors');
 const axios = require('axios')
 const mongoose = require('mongoose');
 
-// const verifyUser = require('./Authorize') //TODO:  for Auth0 uncomment 1/4
+const verifyUser = require('./Authorize'); //TODO:  for Auth0 uncomment 1/4
 
 const app = express();
 app.use(cors());
 app.use(express.json()); 
-// app.use(verifyUser);     //TODO:  for Auth0 uncomment 2/4 => go to handler.js
+app.use(verifyUser);     //TODO:  for Auth0 uncomment 2/4 => go to handler.js
 
 const PORT = process.env.PORT || 3002;
 const API = process.env.TRIP_ADVISOR_API_KEY
