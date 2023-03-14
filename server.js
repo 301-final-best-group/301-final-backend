@@ -40,8 +40,8 @@ app.get('/', (req, res) => res.status(200).send('Default Route Working'));
 //***Getting Attraction json Data for a city */
 
 app.get('/attractions', async (request, response) => {
-    // let searchQuery = request.query.searchQuery; //**final queery */
-    let searchQuery = 'miami'
+    let searchQuery = request.query.searchQuery; //**final queery */
+    // let searchQuery = 'miami'
     let places = await getPlacesForCity(searchQuery, process.env.TRIP_ADVISOR_API_KEY);
     response.status(201).send(places);
 });
