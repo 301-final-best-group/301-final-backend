@@ -9,7 +9,6 @@ class Place {
         this.images = place.images;
     }
 }
-
 async function getPlacesForCity(searchQuery, apiKey) {
     try {
         if (!searchQuery) {
@@ -30,14 +29,15 @@ async function getPlacesForCity(searchQuery, apiKey) {
                 const constUpdatedPlace = placesResponse.data.data[index];
                 const placeId = constUpdatedPlace.location_id
                 let locationDetailsUrl = `https://api.content.tripadvisor.com/api/v1/location/${placeId}/details?key=${apiKey}&language=en&currency=USD`
-                const placeDetails = await axios.get(locationDetailsUrl);
+                let imagesUrl = `https://api.content.tripadvisor.com/api/v1/location/${placeId}/photos?key=${apiKey}&language=en`
+                const [placeDetails, imagesResponse] = await Promise.all([
+                    axios.get(locationDetailsUrl),
+                    axios.get(imagesUrl)
+                ]);
                 if (placeDetails) {
                     constUpdatedPlace["description"] = placeDetails.data.description
                     constUpdatedPlace["address"] = placeDetails.data.address_obj.address_string
                 }
-
-                let imagesUrl = `https://api.content.tripadvisor.com/api/v1/location/${placeId}/photos?key=${apiKey}&language=en`
-                let imagesResponse = await axios.get(imagesUrl);
                 if (imagesResponse) {
                     constUpdatedPlace["images"] = imagesResponse.data.data.map(obj => obj.images.large.url)
                 }
@@ -53,6 +53,7 @@ async function getPlacesForCity(searchQuery, apiKey) {
         throw error;
     }
 }
+
 
 async function getRestaurantForCity(searchQuery, apiKey) {
     try {
@@ -74,14 +75,17 @@ async function getRestaurantForCity(searchQuery, apiKey) {
                 const constUpdatedPlace = placesResponse.data.data[index];
                 const placeId = constUpdatedPlace.location_id
                 let locationDetailsUrl = `https://api.content.tripadvisor.com/api/v1/location/${placeId}/details?key=${apiKey}&language=en&currency=USD`
-                const placeDetails = await axios.get(locationDetailsUrl);
+
+                // Execute the third and fourth API calls in parallel using Promise.all
+                let [placeDetails, imagesResponse] = await Promise.all([
+                    axios.get(locationDetailsUrl),
+                    axios.get(`https://api.content.tripadvisor.com/api/v1/location/${placeId}/photos?key=${apiKey}&language=en`)
+                ]);
+                
                 if (placeDetails) {
                     constUpdatedPlace["description"] = placeDetails.data.description
                     constUpdatedPlace["address"] = placeDetails.data.address_obj.address_string
                 }
-
-                let imagesUrl = `https://api.content.tripadvisor.com/api/v1/location/${placeId}/photos?key=${apiKey}&language=en`
-                let imagesResponse = await axios.get(imagesUrl);
                 if (imagesResponse) {
                     constUpdatedPlace["images"] = imagesResponse.data.data.map(obj => obj.images.large.url)
                 }
@@ -98,4 +102,5 @@ async function getRestaurantForCity(searchQuery, apiKey) {
         throw new Error('Error getting restaurant places');
     }
 }
+
 module.exports = { getPlacesForCity, getRestaurantForCity };
